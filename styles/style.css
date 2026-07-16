@@ -1,30 +1,46 @@
 .header {
-  height: 296px;
+  height: 293px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
+  font-style: normal;
   font-family: 'Raleway';
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.35;
   color: #000000;
+  line-height: 1.37;
 }
 
 .header__menu {
   padding-left: 50px;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  list-style: circle;
 }
 
-ul li:first-child {
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  list-style: circle;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  line-height: 1.37;
+  padding-bottom: 4px;
+}
+
+.header__links-list-item {
+  /*padding-left: 1px;*/
+}
+
+.header__links-list-item_no-bullit {
   list-style-type: none;
+}
+
+.header__link_active {
+  text-decoration: none;
 }
 
 .header__logo {
   display: block;
-  width: 140px;
+  width: 136px;
 }
 
 .header__logo-image {
@@ -36,8 +52,13 @@ ul li:first-child {
   flex-direction: column;
   justify-self: end;
   width: 240px;
+  /*height: 98px;*/
   margin-right: 50px;
   font-style: normal;
+  line-height: 1.37;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  padding-bottom: 4px;
 }
 
 .cover {
@@ -201,6 +222,7 @@ ul li:first-child {
   font-weight: 400;
   font-size: 20px;
   color: #000000;
+  text-underline-offset: 4px;
 }
 
 .about {
@@ -213,7 +235,7 @@ ul li:first-child {
 .about__column {
   display: flex;
   justify-content: center;
-  margin-top: 18px;
+  margin-top: 17px;
 }
 
 .about__logo {
@@ -234,7 +256,7 @@ ul li:first-child {
 }
 
 .about__title {
-  padding: 135px 0 100px;
+  padding: 134px 0 100px;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 40px;
@@ -263,7 +285,6 @@ ul li:first-child {
   font-family: 'Raleway';
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.35;
   color: #000000;
   text-transform: none;
 }
@@ -273,11 +294,19 @@ ul li:first-child {
   flex-direction: column;
   align-items: center;
   list-style: none;
+  line-height: 1.20;
+  text-underline-offset: 4px;
+}
+
+.footer__link_active {
+  text-decoration: none;
 }
 
 .address__footer {
   padding-left: 50px;
   font-style: normal;
+  text-underline-offset: 4px;
+  line-height: 1.35;
 }
 
 .footer__social {
