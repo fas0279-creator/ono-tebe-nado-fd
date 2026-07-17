@@ -1,6 +1,7 @@
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr min-content 474px;
+  justify-content: center;
 }
 
 .header__menu {
@@ -37,8 +38,8 @@
 
 .header__logo {
   display: block;
-  width: 137px;
-  margin: 92px 0 91px 0;
+  width: 148px;
+  margin: 92px 0 92px 0;
 }
 
 .header__logo-image {
@@ -60,8 +61,8 @@
 .header__address {
   display: flex;
   flex-direction: column;
-  min-width: 241px;
-  padding: 96px 50px 0 191px;
+  min-width: 240px;
+  padding: 96px 50px 0 185px;
 }
 
 .cover {
@@ -178,7 +179,7 @@
   font-size: 22px;
   line-height: 26px;
   text-decoration-line: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 3px;
   text-decoration-thickness: 1px;
   text-transform: uppercase;
   text-align: left;
@@ -229,7 +230,7 @@
   font-size: 20px;
   line-height: 23px;
   color: #000000;
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
   text-decoration-thickness: 1px;
 }
 
@@ -299,7 +300,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 180px;
-  margin-bottom: 180px;
 }
 
 .footer__text {
@@ -349,5 +349,5 @@
 
 .footer__social-icon {
   display: block;
-  width: 49px;
+  width: 48px;
 }
