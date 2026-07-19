@@ -154,7 +154,7 @@
   color: #000000;
 }
 
-.lots__card-list{
+.lots__card-list {
   display: grid;
   grid-template-columns: repeat(3, 334px);
   gap: 25px;
